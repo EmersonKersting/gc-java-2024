@@ -2,7 +2,7 @@ package Aula02.Exercicio05;
 
 import java.util.Scanner;
 
-public class Main {
+public class Ex5 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

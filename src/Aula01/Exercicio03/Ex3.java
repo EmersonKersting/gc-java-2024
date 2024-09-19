@@ -2,7 +2,7 @@ package Aula01.Exercicio03;
 
 import java.util.Scanner;
 
-public class Main {
+public class Ex3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o primeiro numero: ");

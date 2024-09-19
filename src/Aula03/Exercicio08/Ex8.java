@@ -2,7 +2,7 @@ package Aula03.Exercicio08;
 
 import java.util.Scanner;
 
-public class Main {
+public class Ex8 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Marca: ");
