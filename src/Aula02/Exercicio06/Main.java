@@ -17,5 +17,7 @@ public class Main {
         }
 
         System.out.println("Sua comida favorita: " + palavraInvertida);
+
+        scanner.close();
     }
 }
