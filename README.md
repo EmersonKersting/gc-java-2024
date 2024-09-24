@@ -37,7 +37,7 @@ Qual minha bebida favorita? :heavy_check_mark:
 ```
 Resposta: Café
 ```
-Qual minha comida favorita escrita ao contrário? ❌
+Qual minha comida favorita escrita ao contrário? 
 ```
 Resposta: Ffonogorts
 ```
