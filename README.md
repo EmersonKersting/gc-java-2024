@@ -5,6 +5,25 @@
 **Level Atual:** 0
 
 ---
+## Feedback exercícios
+
+- **Aula 01:**
+	- **Ex1:** Incorreto, nome deveria ser um input do usuário
+	- **Ex2:** Ok
+	- **Ex3:** Lógica correta, porém a média esta sendo feita com números inteiros, dessa forma, não considera números quebrados
+- **Aula 02:**
+	- **Ex4:** Ok
+	- **Ex5:** Ok, porém usando método pronto (substring)
+	- **Ex6:** Ok
+	- **Ex7:** NF
+- **Aula 03:**
+	- **Ex8:** Ok
+	- **Ex9:** Incompleto, faltando alguns métodos. Olhe os slides com instruções 
+- **Aula 04:**
+	- **Ex10:** NF
+	- **Ex11:** NF
+
+---
 ## Conquistas
 
 ---
