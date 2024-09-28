@@ -1,5 +1,5 @@
 package Aula05.exercicio13;
-
+// Feito por Emerson, João Vitor e Gabriel Howes
 import java.util.ArrayList;
 import java.util.Scanner;
 
