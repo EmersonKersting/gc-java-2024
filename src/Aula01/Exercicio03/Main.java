@@ -6,11 +6,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o primeiro numero: ");
-        int numeroUm = scanner.nextInt();
+        double numeroUm = scanner.nextDouble();
         System.out.println("Digite o segundo numero: ");
-        int numeroDois = scanner.nextInt();
+        double numeroDois = scanner.nextDouble();
         System.out.println("Digite o terceiro numero: ");
-        int numeroTres = scanner.nextInt();
+        double numeroTres = scanner.nextDouble();
 
 
         if (numeroUm > numeroDois && numeroUm > numeroTres) {
@@ -25,7 +25,7 @@ public class Main {
             System.out.println("O menor numero é o " + numeroTres);
         }
 
-        int mediaAritmetica = (numeroUm + numeroDois + numeroTres) / 3;
-        System.out.println("A media Aritmetica é " + mediaAritmetica);
+        double mediaAritmetica = (numeroUm + numeroDois + numeroTres) / 3;
+        System.out.printf("A media aritmetica é %.2f", mediaAritmetica);
     }
 }
