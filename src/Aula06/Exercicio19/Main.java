@@ -16,28 +16,38 @@ public class Main {
             System.out.println("""
                     1 - Adicionar aluno e nota:                  
                     2 - Consultar nota dos aluno:
-                    3 - Sair
+                    3 - Listar todas as notas:
+                    4 - Sair
                     """);
             opcao = sc.nextInt();
+            sc.nextLine();
 
             switch (opcao) {
                 case 1:
                     System.out.println("Qual o nome do aluno? ");
                     nomeAlunos = sc.nextLine();
-                    sc.next();
+                    String nome = nomeAlunos;
 
                     System.out.println("Qual a nota do aluno: ");
                     notasAlunos = sc.nextDouble();
+                    sc.nextLine();
 
                     listaNotas.put(nomeAlunos, notasAlunos);
                     break;
                 case 2:
                     System.out.println("Qual aluno deseja verificar?");
                     nomeAlunos = sc.nextLine();
-                    sc.next();
-                    System.out.println("A nota do aluno " + notasAlunos + " foi " + notasAlunos);
+                    if (listaNotas.containsKey(nomeAlunos)) {
+                        System.out.println("A nota do aluno " + nomeAlunos + " foi " + listaNotas.get(nomeAlunos));
+                    } else {
+                        System.out.println("Aluno não encontrado.");
+                    }
                     break;
                 case 3:
+                    System.out.println("A lista de todas as notas:");
+                    System.out.println(listaNotas);
+                    break;
+                case 4:
                     System.out.println("Consulta finalizada");
                     break;
                 default:
@@ -47,7 +57,7 @@ public class Main {
 
 
            
-        } while (opcao != 3);
+        } while (opcao != 4);
         
     }
 }

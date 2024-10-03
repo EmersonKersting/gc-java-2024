@@ -2,7 +2,7 @@ package Aula06.Exercicio16;
 
 public class Main {
     public static void main(String[] args) {
-        StatusDoPedido(StatusPedido.ENVIADO);
+        StatusDoPedido(StatusPedido.ENTREGUE);
     }
 
     private static void StatusDoPedido(StatusPedido status) {

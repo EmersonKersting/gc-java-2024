@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        niveisDeAcesso(NivelAcesso.ADMIN);
+        niveisDeAcesso(NivelAcesso.USUARIO);
     }
 
     private static void niveisDeAcesso(NivelAcesso nivel) {
