@@ -62,7 +62,7 @@ Resposta: Ffonogorts
 ```
 Qual meu anime favorito?
 ```
-Resposta: 
+Resposta: Speed Racer
 ```
 Qual meme o Giancarlo está referenciando no vídeo?
 ```
