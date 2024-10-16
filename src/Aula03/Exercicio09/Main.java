@@ -1,33 +1,24 @@
 package Aula03.Exercicio09;
 
+//Feito em coop Emerson Kersting e João Vitor Trevisan
 
-import java.util.Scanner;
-
-public class Main extends ContaBancaria{
+public class Main {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        ContaBancaria conta1 = new ContaBancaria("Emerson Kersting", "123.456.789-00", "0001", "Banco do Brasil", "Rua Dom Pedro, 434", 1000.00);
+        ContaBancaria conta2 = new ContaBancaria("Joao Trevisan", "987.654.321-00", "0002", "Banco Nubank", "Rua 20 de Setembro, 453", 500.00);
 
-        ContaBancaria minhaConta = new ContaBancaria();
-        minhaConta.setNome("Emerson");
-        minhaConta.setCpf("048.719.040-83");
-        minhaConta.setNomeBanco("Nubank");
-        minhaConta.setEndereco("Casa");
-        minhaConta.setHorarioAtual("17:00");
-        minhaConta.setIdentificadorConta("767");
-        minhaConta.setSaldo(500.000);
+        System.out.println("Informações da conta 1:");
+        conta1.verificarInformacoes();
 
-        System.out.println("Informe o valor do pix: ");
-        double valorPix = scanner.nextDouble();
-        minhaConta.pix(valorPix);
+        System.out.println("\nDepósito na conta 1:");
+        conta1.deposito(200);
 
-        System.out.println(minhaConta.getNome());
-        System.out.println(minhaConta.getCpf());
-        System.out.println(minhaConta.getNomeBanco());
-        System.out.println(minhaConta.getEndereco());
-        System.out.println(minhaConta.getHorarioAtual());
-        System.out.println(minhaConta.getIdentificadorConta());
-        System.out.println(minhaConta.getSaldo());
+        System.out.println("\nTransferência da conta 1 para a conta 2:");
+        conta1.transferencia(conta2, 300);
+
+        System.out.println("\nSaldo da conta 1 após as operações:");
+        conta1.verificarSaldo();
 
     }
 }
