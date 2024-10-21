@@ -13,10 +13,8 @@ public class Main {
         try {
             if (segundo == 0) {
                 throw new ArithmeticException("Nao pode ser divido por 0");
-            } else if (primeiro == 5) {
-                throw new EmersonException("Nao pode ser divido por 5");
             }
-        } catch (ArithmeticException | EmersonException e) {
+        } catch (ArithmeticException e) {
             System.out.println("Erro " + e.getMessage());
         }
     }
