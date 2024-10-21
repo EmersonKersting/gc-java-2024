@@ -20,6 +20,7 @@ public class Main {
             }
         } catch (IllegalArgumentException e) {
             System.out.println("Erro " + e.getMessage());
+
         }
     }
 
