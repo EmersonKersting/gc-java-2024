@@ -52,7 +52,6 @@ public class Menu {
                     sc.nextLine();
                     String nomeAtualizar = sc.nextLine();
 
-                    //
                     Aventureiros atualizarAventureiro = null;
                     for (Aventureiros atualizar : listaAventureiros) {
                         if (atualizar.getNome().equalsIgnoreCase(nomeAtualizar)) {
