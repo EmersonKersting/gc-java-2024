@@ -2,7 +2,7 @@
 
 ---
 ## Level
-**Level Atual:** 0
+**Level Atual:** 6
 
 ---
 ## Feedback exercícios
@@ -22,6 +22,24 @@
 - **Aula 04:**
 	- **Ex10:** NF
 	- **Ex11:** NF
+- **Aula 05:**
+	- **Ex12:** Incorreto. Lógica ok, porém muito código desncessário
+	- **Ex13:** Ok, cuidado com a organização do código
+	- **Ex14:** NF
+- **Aula 06:**
+	- **Ex15:** Ok
+	- **Ex16:** Ok
+	- **Ex17:** Ok, idealmente deveria permitir que o usuário digite os números que vão ser adicionados
+	- **Ex18:** Ok, idealmente desconsidere letras maiúsculas e minúsculas quando for verificar o nome
+	- **Ex19:** Ok, cuidado com variáveis desnecessárias e identação do código
+	- **Ex20:** Ok
+- **Aula 07:**
+	- **Ex21:** NF
+	- **Ex22:** NF
+	- **Ex23:** NF
+	- **Ex24:** NF
+	
+- Geral: evite o uso de "var" quando o tipo da variável puder ser pré definido
 
 ---
 ## Conquistas
